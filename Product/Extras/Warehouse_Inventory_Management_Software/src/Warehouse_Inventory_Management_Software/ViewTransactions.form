@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="View Transactions"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="3"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="68" pref="68" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="BookChoice" min="-2" pref="350" max="-2" attributes="0"/>
+                              <Component id="DateSearch" max="32767" attributes="0"/>
+                              <Component id="DisplayIsbn" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" pref="96" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="jButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jScrollPane1" min="-2" pref="745" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BookChoice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Component id="DisplayIsbn" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="DateSearch" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jButton2" min="-2" pref="34" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" pref="632" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="40" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="Display_Books">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="99" green="99" red="99" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Choose the name of the book and/ or date of transaction below (take note that the search is case sensitive)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="BookChoice">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="70">
+                <StringItem index="0" value="Select"/>
+                <StringItem index="1" value="The Monkey King"/>
+                <StringItem index="2" value="Birth of Krshna &amp;Krishna Conquest / Young Hanuman &amp; Hanuman the Mighty"/>
+                <StringItem index="3" value="Hungry Caterpillar Billingual"/>
+                <StringItem index="4" value="Tiny Seed Billingual"/>
+                <StringItem index="5" value="Mixed Up Chameleon Billingual"/>
+                <StringItem index="6" value="Little Vinayak"/>
+                <StringItem index="7" value="Lizards Tail"/>
+                <StringItem index="8" value="Monkeys on A Fast"/>
+                <StringItem index="9" value="The Boy Who Drew Cats"/>
+                <StringItem index="10" value="Whose lovely child can you be"/>
+                <StringItem index="11" value="The Rumour"/>
+                <StringItem index="12" value="The Last Bargain"/>
+                <StringItem index="13" value="The Tallest Tale"/>
+                <StringItem index="14" value="Book worm"/>
+                <StringItem index="15" value="Tak tak"/>
+                <StringItem index="16" value="The Moustache Man"/>
+                <StringItem index="17" value="When the Earth Lost Its Shapes"/>
+                <StringItem index="18" value="Dorje&apos;s Stripes"/>
+                <StringItem index="19" value="Revenge of Puppets"/>
+                <StringItem index="20" value="The Dancing Bear"/>
+                <StringItem index="21" value="An Elephant in my backyard"/>
+                <StringItem index="22" value="A Big Mouth"/>
+                <StringItem index="23" value="Tit for tat"/>
+                <StringItem index="24" value="The Tiger Eater&apos;s"/>
+                <StringItem index="25" value="The Crocodile&apos;s Tail"/>
+                <StringItem index="26" value="The Story and the song"/>
+                <StringItem index="27" value="The Case of the Stolen Smells"/>
+                <StringItem index="28" value="What Will I Be"/>
+                <StringItem index="29" value="What Could It Be?"/>
+                <StringItem index="30" value="What Will You Give Me"/>
+                <StringItem index="31" value="Where Shall We Go"/>
+                <StringItem index="32" value="Fetch That Colour"/>
+                <StringItem index="33" value="Let&apos;s Roll Out a Circle"/>
+                <StringItem index="34" value="The Wednesday Bazaar"/>
+                <StringItem index="35" value="Bela Misses Her Train"/>
+                <StringItem index="36" value="Thea&apos;s Tree"/>
+                <StringItem index="37" value="A Pair of Twins"/>
+                <StringItem index="38" value="The Fox and the Crow"/>
+                <StringItem index="39" value="Whimsy"/>
+                <StringItem index="40" value="The Dragon&apos;s Toothache"/>
+                <StringItem index="41" value="Farmer Falgu Goes On A Trip"/>
+                <StringItem index="42" value="Farmer Falgu Goes To The Market"/>
+                <StringItem index="43" value="The Lions Feast"/>
+                <StringItem index="44" value="The Night Monster"/>
+                <StringItem index="45" value="What did the monster child eat today"/>
+                <StringItem index="46" value="Princess Easy Pleasy"/>
+                <StringItem index="47" value="Farmer Falgu Goes to the Kumbh Mela"/>
+                <StringItem index="48" value="Farmer Falgu Goes kite Flying"/>
+                <StringItem index="49" value="Dada&apos;s Useless Present"/>
+                <StringItem index="50" value="A Tangle of Brungles"/>
+                <StringItem index="51" value="The Insect Boy"/>
+                <StringItem index="52" value="Fly Little Fish"/>
+                <StringItem index="53" value="The Clever Tailor"/>
+                <StringItem index="54" value="Sadiq Wants to Stitch"/>
+                <StringItem index="55" value="Babban Hajjam"/>
+                <StringItem index="56" value="Letter to Ammi"/>
+                <StringItem index="57" value="Papa&apos;s Marathon"/>
+                <StringItem index="58" value="Star Struck"/>
+                <StringItem index="59" value="The Truth about the Tooth"/>
+                <StringItem index="60" value="Thukpa for All"/>
+                <StringItem index="61" value="The Brave Parrot"/>
+                <StringItem index="62" value="Cat&apos;s Egg-Indian"/>
+                <StringItem index="63" value="Daisy Doll"/>
+                <StringItem index="64" value="Sion Misfortune"/>
+                <StringItem index="65" value="One Rainy Day"/>
+                <StringItem index="66" value="Mountain of Mumbai"/>
+                <StringItem index="67" value="Get OFF that Camel"/>
+                <StringItem index="68" value="Thatha&apos;s Pumpkin New Title 2020"/>
+                <StringItem index="69" value="Rats Bigger than Cats New Title 2020"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BookChoiceMouseClicked"/>
+            <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BookChoiceMousePressed"/>
+            <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BookChoiceMouseReleased"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BookChoiceActionPerformed"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="BookChoiceKeyPressed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="BookChoiceKeyReleased"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Book Name:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ISBN: "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date(yyyy-MM-dd)"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="DisplayIsbn">
+        </Component>
+        <Component class="javax.swing.JFormattedTextField" name="DateSearch">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

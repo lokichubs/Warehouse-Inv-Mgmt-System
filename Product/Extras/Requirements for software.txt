@@ -1,0 +1,23 @@
+1)First click the link "Soultion" to access the zipped folder containing the solution with the relevant libraries. Exctract this folder anywhere on the computer. In the extracted folder, open the folder "dist" and then and double click the executable file "Warehouse_Inventory_Management_Software.jar" to run the product.
+	- To run the jar file, a Java environment runtime is needed which can be downloaded from this website: https://java-runtime-	  	environment.en.softonic.com/download
+
+2)For the software to function as per intended, the MySQL database needs to be set up first.
+
+1. The exe file in this folder named "mysql-installer-web-community-8.0.20.0" needs to be installed - make sure all requirements shown in the check Requirements page are installed and ensure that "Connector/J 8.0.23" or above is installed as well
+	- For setting it up in mac, copy and paste this link in your web browser:https://www.youtube.com/watch?v=7S_tz1z_5bA&t=290s
+	- For setting it up in windows, copy and past this link to your web browser:https://www.youtube.com/watch?v=7S_tz1z_5bA&t=590s
+[VERY IMPORTANT FOR BOTH THESE OPERATING SYSTEMS MAKE SURE TO ENTER THE MYSQL PASSWORD AS "xeno28972" IN THE ACCOUNTS AND 		ROLES SECTION OF THE SETUP]* If you run into an error in any of the downloads click the "try again" button near the resepective download until it does download
+
+2. Once this has been done,create a schema named "cs_ia_data" in the mysql workbench. Then, import the file "MySQL Data" 
+(the tutorial to do so can be found in this link: https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html)
+
+Now the MySQL database is ready to be used. 
+
+3)To access the software, any of the following login credntials could be used
+
+Username    |   Password
+
+abubucker   |	abubucker@123
+gopinath    |	gopinath@123
+kripakaran  |	kripakaran@123
+sathiskumar |	sathiskumar@123
