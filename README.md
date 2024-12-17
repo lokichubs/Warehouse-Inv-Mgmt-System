@@ -25,6 +25,7 @@ This phase involved several steps prior to coding such as Wire framing, Database
 The documentation for the same can be seen below.
 
 [Design Process](Documentation/Crit_B_Design.pdf)
+
 [Record of Tasks](Documentation/Crit_B_Record_of_tasks.pdf)
 
 *Note: The resulting final software design can be seen at the end of design process document as well
@@ -34,7 +35,9 @@ This phase involved the coding of the software in JAVA and MySQL and the techniq
 Then documentation for the same can be seen below.
 
 [Development](Documentation/Crit_C_Development.pdf)
+
 [Code Document](Documentation/Appendix_Code.pdf)
+
 [Code](Product/Warehouse_Inventory_Management_Software)
 
 ## Functionality
@@ -49,6 +52,7 @@ To download it and test it yourself, follow the instructions in [Requirements fo
 This phase involved verifying that the software had met all success critera with the client. The documentation for the same can be seen below
 
 [Feedback Interview](Documentation/Crit_E_Evaluation.pdf)
+
 [Evaluation](Documentation/Appendix_Feedback.pdf)
 
 
