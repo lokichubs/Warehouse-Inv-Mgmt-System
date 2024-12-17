@@ -42,7 +42,7 @@ Then documentation for the same can be seen below.
 
 [Code Document](Documentation/Appendix_Code.pdf)
 
-[Code](Product/Warehouse_Inventory_Management_Software)
+[Code](Product/Extras/Warehouse_Inventory_Management_Software)
 
 ## Functionality
 This phase involved showcasing the functionality of the software and testing edge cases.
