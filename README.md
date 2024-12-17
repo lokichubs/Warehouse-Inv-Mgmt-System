@@ -2,12 +2,16 @@
 This project's goal is to create a inventory stock keeping system and add functionalities such as
 report generation for a client, Ms. XX, from the company Karadi Path (an education company in India).
 
-The implementation of the Software Was done in 5 parts
+The implementation of the Software was done in 5 parts:
 
 [Planning](#planning)
+
 [Design](#design)
+
 [Development](#development)
+
 [Functionality](#functionality)
+
 [Evaluation](#evaluation)
 
 ## Planning
